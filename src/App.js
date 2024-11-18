@@ -6,7 +6,7 @@ import { DefaultLayout } from "~/components/Layout";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div>
         <Routes>
           {publicRoutes.map((route, index) => {
             let Layout = DefaultLayout;
