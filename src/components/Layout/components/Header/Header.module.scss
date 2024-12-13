@@ -13,6 +13,7 @@
 .inner {
   height: 100%;
   width: var(--default-layout-width);
+  padding: 0 var(--default-layout-horizontal-spacer);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -98,6 +99,11 @@
   color: red;
 }
 
+.actions {
+  display: flex;
+  align-items: center;
+}
+
 .more-btn {
   margin-left: 28px;
   font-size: 2rem;
@@ -106,5 +112,22 @@
   cursor: pointer;
 }
 
+.action-btn {
+  background: transparent;
+  font-size: 2.2rem;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: #161823;
+}
+
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 12px;
+  cursor: pointer;
+}
 
 
